@@ -14,10 +14,12 @@ For example, to load the font "[Wayfinder](https://craftwork.design/downloads/wa
 
 Then, use the font like this:
 
-<pre class="language-css"><code class="lang-css">p {
-<strong>    font-family: "Wayfinder CF";
-</strong>    font-size: 50px;
-}</code></pre>
+<pre class="language-css"><code class="lang-css"><strong>&#x3C;style>
+</strong><strong>    p {
+</strong>        font-family: "Wayfinder CF";
+        font-size: 50px;
+    }
+&#x3C;/style></code></pre>
 
 Again, for the font "[Anti-Design](https://craftwork.design/downloads/anti-design/)" by the [Craftwork Design Company](https://craftwork.design/) & [Endeavor Studio](https://craftwork.design/author/endeavour-studio/), implement the CDN like this:
 
