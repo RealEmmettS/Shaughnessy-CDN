@@ -4,7 +4,7 @@ To load a font using the **Shaughnessy CDN**, create a `<link>` to the css style
 
 –––––
 
-For example, to load the font "[Wayfinder](https://craftwork.design/downloads/wayfinder/)" from the [Craftwork Design Company](https://craftwork.design/) & [Connary Fagen](https://craftwork.design/author/connary-fagen/), create a `<link>` like this:
+For example, to load the font "[Wayfinder](https://craftwork.design/downloads/wayfinder/)" by the [Craftwork Design Company](https://craftwork.design/) & [Connary Fagen](https://craftwork.design/author/connary-fagen/), create a `<link>` like this:
 
 {% code overflow="wrap" %}
 ```html
@@ -18,3 +18,22 @@ Then, use the font like this:
 <strong>    font-family: "Wayfinder CF";
 </strong>    font-size: 50px;
 }</code></pre>
+
+Again, for the font "[Anti-Design](https://craftwork.design/downloads/anti-design/)" by the [Craftwork Design Company](https://craftwork.design/) & [Endeavor Studio](https://craftwork.design/author/endeavour-studio/), implement the CDN like this:
+
+```html
+<head>
+    
+    <!-- CDN IMPLEMENTATION -->
+    <link href="https://cdn.emmetts.dev/fonts/anti-design/stylesheet.css" rel="stylesheet" type="text/css" />
+    
+    <style>
+        p {
+            font-family: "Anti Design Endeavour";
+            font-size: 50px;
+        }
+    </style>
+    <!-- CDN IMPLEMENTATION -->
+
+</head>
+```
