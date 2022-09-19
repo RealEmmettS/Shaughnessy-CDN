@@ -1,0 +1,312 @@
+@font-face {
+    font-family: 'Cerulya CF';
+    src: url('CerulyaCF-Heavy.eot');
+    src: url('CerulyaCF-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('CerulyaCF-Heavy.woff2') format('woff2'),
+        url('CerulyaCF-Heavy.woff') format('woff'),
+        url('CerulyaCF-Heavy.ttf') format('truetype'),
+        url('CerulyaCF-Heavy.svg#CerulyaCF-Heavy') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cerulya CF Demi';
+    src: url('CerulyaCF-DemiBoldItalic.eot');
+    src: url('CerulyaCF-DemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('CerulyaCF-DemiBoldItalic.woff2') format('woff2'),
+        url('CerulyaCF-DemiBoldItalic.woff') format('woff'),
+        url('CerulyaCF-DemiBoldItalic.ttf') format('truetype'),
+        url('CerulyaCF-DemiBoldItalic.svg#CerulyaCF-DemiBoldItalic') format('svg');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cerulya CF';
+    src: url('CerulyaCF-LightItalic.eot');
+    src: url('CerulyaCF-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('CerulyaCF-LightItalic.woff2') format('woff2'),
+        url('CerulyaCF-LightItalic.woff') format('woff'),
+        url('CerulyaCF-LightItalic.ttf') format('truetype'),
+        url('CerulyaCF-LightItalic.svg#CerulyaCF-LightItalic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cerulya CF';
+    src: url('CerulyaCF-Heavy_1.eot');
+    src: url('CerulyaCF-Heavy_1.eot?#iefix') format('embedded-opentype'),
+        url('CerulyaCF-Heavy_1.woff2') format('woff2'),
+        url('CerulyaCF-Heavy_1.woff') format('woff'),
+        url('CerulyaCF-Heavy_1.ttf') format('truetype'),
+        url('CerulyaCF-Heavy_1.svg#CerulyaCF-Heavy') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cerulya CF';
+    src: url('CerulyaCF-HeavyItalic.eot');
+    src: url('CerulyaCF-HeavyItalic.eot?#iefix') format('embedded-opentype'),
+        url('CerulyaCF-HeavyItalic.woff2') format('woff2'),
+        url('CerulyaCF-HeavyItalic.woff') format('woff'),
+        url('CerulyaCF-HeavyItalic.ttf') format('truetype'),
+        url('CerulyaCF-HeavyItalic.svg#CerulyaCF-HeavyItalic') format('svg');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cerulya CF';
+    src: url('CerulyaCF-Light.eot');
+    src: url('CerulyaCF-Light.eot?#iefix') format('embedded-opentype'),
+        url('CerulyaCF-Light.woff2') format('woff2'),
+        url('CerulyaCF-Light.woff') format('woff'),
+        url('CerulyaCF-Light.ttf') format('truetype'),
+        url('CerulyaCF-Light.svg#CerulyaCF-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cerulya CF Demi';
+    src: url('CerulyaCF-DemiBoldItalic_1.eot');
+    src: url('CerulyaCF-DemiBoldItalic_1.eot?#iefix') format('embedded-opentype'),
+        url('CerulyaCF-DemiBoldItalic_1.woff2') format('woff2'),
+        url('CerulyaCF-DemiBoldItalic_1.woff') format('woff'),
+        url('CerulyaCF-DemiBoldItalic_1.ttf') format('truetype'),
+        url('CerulyaCF-DemiBoldItalic_1.svg#CerulyaCF-DemiBoldItalic') format('svg');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cerulya CF Demi';
+    src: url('CerulyaCF-DemiBold.eot');
+    src: url('CerulyaCF-DemiBold.eot?#iefix') format('embedded-opentype'),
+        url('CerulyaCF-DemiBold.woff2') format('woff2'),
+        url('CerulyaCF-DemiBold.woff') format('woff'),
+        url('CerulyaCF-DemiBold.ttf') format('truetype'),
+        url('CerulyaCF-DemiBold.svg#CerulyaCF-DemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cerulya CF';
+    src: url('CerulyaCF-Bold.eot');
+    src: url('CerulyaCF-Bold.eot?#iefix') format('embedded-opentype'),
+        url('CerulyaCF-Bold.woff2') format('woff2'),
+        url('CerulyaCF-Bold.woff') format('woff'),
+        url('CerulyaCF-Bold.ttf') format('truetype'),
+        url('CerulyaCF-Bold.svg#CerulyaCF-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cerulya CF';
+    src: url('CerulyaCF-Bold_1.eot');
+    src: url('CerulyaCF-Bold_1.eot?#iefix') format('embedded-opentype'),
+        url('CerulyaCF-Bold_1.woff2') format('woff2'),
+        url('CerulyaCF-Bold_1.woff') format('woff'),
+        url('CerulyaCF-Bold_1.ttf') format('truetype'),
+        url('CerulyaCF-Bold_1.svg#CerulyaCF-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cerulya CF';
+    src: url('CerulyaCF-BoldItalic.eot');
+    src: url('CerulyaCF-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('CerulyaCF-BoldItalic.woff2') format('woff2'),
+        url('CerulyaCF-BoldItalic.woff') format('woff'),
+        url('CerulyaCF-BoldItalic.ttf') format('truetype'),
+        url('CerulyaCF-BoldItalic.svg#CerulyaCF-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cerulya CF';
+    src: url('CerulyaCF-BoldItalic_1.eot');
+    src: url('CerulyaCF-BoldItalic_1.eot?#iefix') format('embedded-opentype'),
+        url('CerulyaCF-BoldItalic_1.woff2') format('woff2'),
+        url('CerulyaCF-BoldItalic_1.woff') format('woff'),
+        url('CerulyaCF-BoldItalic_1.ttf') format('truetype'),
+        url('CerulyaCF-BoldItalic_1.svg#CerulyaCF-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cerulya CF Demi';
+    src: url('CerulyaCF-DemiBold_1.eot');
+    src: url('CerulyaCF-DemiBold_1.eot?#iefix') format('embedded-opentype'),
+        url('CerulyaCF-DemiBold_1.woff2') format('woff2'),
+        url('CerulyaCF-DemiBold_1.woff') format('woff'),
+        url('CerulyaCF-DemiBold_1.ttf') format('truetype'),
+        url('CerulyaCF-DemiBold_1.svg#CerulyaCF-DemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cerulya CF';
+    src: url('CerulyaCF-HeavyItalic_1.eot');
+    src: url('CerulyaCF-HeavyItalic_1.eot?#iefix') format('embedded-opentype'),
+        url('CerulyaCF-HeavyItalic_1.woff2') format('woff2'),
+        url('CerulyaCF-HeavyItalic_1.woff') format('woff'),
+        url('CerulyaCF-HeavyItalic_1.ttf') format('truetype'),
+        url('CerulyaCF-HeavyItalic_1.svg#CerulyaCF-HeavyItalic') format('svg');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cerulya CF';
+    src: url('CerulyaCF-Light_1.eot');
+    src: url('CerulyaCF-Light_1.eot?#iefix') format('embedded-opentype'),
+        url('CerulyaCF-Light_1.woff2') format('woff2'),
+        url('CerulyaCF-Light_1.woff') format('woff'),
+        url('CerulyaCF-Light_1.ttf') format('truetype'),
+        url('CerulyaCF-Light_1.svg#CerulyaCF-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cerulya CF';
+    src: url('CerulyaCF-RegularItalic.eot');
+    src: url('CerulyaCF-RegularItalic.eot?#iefix') format('embedded-opentype'),
+        url('CerulyaCF-RegularItalic.woff2') format('woff2'),
+        url('CerulyaCF-RegularItalic.woff') format('woff'),
+        url('CerulyaCF-RegularItalic.ttf') format('truetype'),
+        url('CerulyaCF-RegularItalic.svg#CerulyaCF-RegularItalic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cerulya CF';
+    src: url('CerulyaCF-LightItalic_1.eot');
+    src: url('CerulyaCF-LightItalic_1.eot?#iefix') format('embedded-opentype'),
+        url('CerulyaCF-LightItalic_1.woff2') format('woff2'),
+        url('CerulyaCF-LightItalic_1.woff') format('woff'),
+        url('CerulyaCF-LightItalic_1.ttf') format('truetype'),
+        url('CerulyaCF-LightItalic_1.svg#CerulyaCF-LightItalic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cerulya CF';
+    src: url('CerulyaCF-Regular.eot');
+    src: url('CerulyaCF-Regular.eot?#iefix') format('embedded-opentype'),
+        url('CerulyaCF-Regular.woff2') format('woff2'),
+        url('CerulyaCF-Regular.woff') format('woff'),
+        url('CerulyaCF-Regular.ttf') format('truetype'),
+        url('CerulyaCF-Regular.svg#CerulyaCF-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cerulya CF';
+    src: url('CerulyaCF-Thin.eot');
+    src: url('CerulyaCF-Thin.eot?#iefix') format('embedded-opentype'),
+        url('CerulyaCF-Thin.woff2') format('woff2'),
+        url('CerulyaCF-Thin.woff') format('woff'),
+        url('CerulyaCF-Thin.ttf') format('truetype'),
+        url('CerulyaCF-Thin.svg#CerulyaCF-Thin') format('svg');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cerulya CF';
+    src: url('CerulyaCF-ThinItalic.eot');
+    src: url('CerulyaCF-ThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('CerulyaCF-ThinItalic.woff2') format('woff2'),
+        url('CerulyaCF-ThinItalic.woff') format('woff'),
+        url('CerulyaCF-ThinItalic.ttf') format('truetype'),
+        url('CerulyaCF-ThinItalic.svg#CerulyaCF-ThinItalic') format('svg');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cerulya CF';
+    src: url('CerulyaCF-ThinItalic_1.eot');
+    src: url('CerulyaCF-ThinItalic_1.eot?#iefix') format('embedded-opentype'),
+        url('CerulyaCF-ThinItalic_1.woff2') format('woff2'),
+        url('CerulyaCF-ThinItalic_1.woff') format('woff'),
+        url('CerulyaCF-ThinItalic_1.ttf') format('truetype'),
+        url('CerulyaCF-ThinItalic_1.svg#CerulyaCF-ThinItalic') format('svg');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cerulya CF';
+    src: url('CerulyaCF-Regular_1.eot');
+    src: url('CerulyaCF-Regular_1.eot?#iefix') format('embedded-opentype'),
+        url('CerulyaCF-Regular_1.woff2') format('woff2'),
+        url('CerulyaCF-Regular_1.woff') format('woff'),
+        url('CerulyaCF-Regular_1.ttf') format('truetype'),
+        url('CerulyaCF-Regular_1.svg#CerulyaCF-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cerulya CF';
+    src: url('CerulyaCF-Thin_1.eot');
+    src: url('CerulyaCF-Thin_1.eot?#iefix') format('embedded-opentype'),
+        url('CerulyaCF-Thin_1.woff2') format('woff2'),
+        url('CerulyaCF-Thin_1.woff') format('woff'),
+        url('CerulyaCF-Thin_1.ttf') format('truetype'),
+        url('CerulyaCF-Thin_1.svg#CerulyaCF-Thin') format('svg');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cerulya CF';
+    src: url('CerulyaCF-RegularItalic_1.eot');
+    src: url('CerulyaCF-RegularItalic_1.eot?#iefix') format('embedded-opentype'),
+        url('CerulyaCF-RegularItalic_1.woff2') format('woff2'),
+        url('CerulyaCF-RegularItalic_1.woff') format('woff'),
+        url('CerulyaCF-RegularItalic_1.ttf') format('truetype'),
+        url('CerulyaCF-RegularItalic_1.svg#CerulyaCF-RegularItalic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
