@@ -1,5 +1,11 @@
 # Available Fonts
 
+Download all fonts available on the Shaughnessy CDN here:
+
+{% file src=".gitbook/assets/cdn-fonts.zip" %}
+All fonts currently available in the Shaughnessy CDN
+{% endfile %}
+
 {% tabs %}
 {% tab title="Wayfinder" %}
 Import with HTML / CSS:
@@ -18,8 +24,6 @@ Use in HTML / CSS:
     }
 </style>
 ```
-
-{% file src=".gitbook/assets/Wayfinder CF v1.1.zip" %}
 {% endtab %}
 
 {% tab title="Anti-Design" %}
