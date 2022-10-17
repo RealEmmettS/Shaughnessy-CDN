@@ -18,6 +18,8 @@ Use in HTML / CSS:
     }
 </style>
 ```
+
+{% file src=".gitbook/assets/Wayfinder CF v1.1.zip" %}
 {% endtab %}
 
 {% tab title="Anti-Design" %}
