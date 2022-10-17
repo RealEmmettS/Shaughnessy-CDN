@@ -1,10 +1,12 @@
 # Available Fonts
 
+#### Font Downloads
+
 Download all fonts available on the Shaughnessy CDN here:
 
 {% file src=".gitbook/assets/cdn-fonts.zip" %}
-All fonts currently available in the Shaughnessy CDN
-{% endfile %}
+
+#### Usage Instructions
 
 {% tabs %}
 {% tab title="Wayfinder" %}
