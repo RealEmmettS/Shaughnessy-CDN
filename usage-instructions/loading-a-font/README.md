@@ -1,3 +1,9 @@
+---
+cover: >-
+  https://images.unsplash.com/photo-1617050318658-a9a3175e34cb?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwxOTcwMjR8MHwxfHNlYXJjaHw1fHxmb250fGVufDB8fHx8MTY3NDUwMDY3NA&ixlib=rb-4.0.3&q=80
+coverY: -88
+---
+
 # Loading a Font
 
 To load a font using the **Shaughnessy CDN**, create a `<link>` to the css stylesheet for the font you'd like to use.
@@ -19,7 +25,8 @@ Then, use the font like this:
 </strong>        font-family: "Wayfinder CF";
         font-size: 50px;
     }
-&#x3C;/style></code></pre>
+&#x3C;/style>
+</code></pre>
 
 Again, for the font "[Anti-Design](https://craftwork.design/downloads/anti-design/)" by the [Craftwork Design Company](https://craftwork.design/) & [Endeavor Studio](https://craftwork.design/author/endeavour-studio/), implement the CDN like this:
 
