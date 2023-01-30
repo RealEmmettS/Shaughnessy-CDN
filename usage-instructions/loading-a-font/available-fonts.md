@@ -4,11 +4,7 @@ coverY: 0
 
 # Available Fonts
 
-#### Font Downloads
-
-Download all fonts available on the Shaughnessy CDN here:
-
-{% file src="../../cdn-fonts.zip" %}
+All fonts available on the Shaughnessy CDN are displayed below below.
 
 #### Usage Instructions
 
@@ -102,6 +98,25 @@ Use in HTML / CSS:
 <style>
     .unbounded {
         font-family: "Unbounded";
+        font-size: 50px;
+    }
+</style>
+```
+{% endtab %}
+
+{% tab title="OSCURA" %}
+Import with HTML / CSS:
+
+```html
+<link href="https://cdn.emmetts.dev/fonts/OSCURA/stylesheet.css" rel="stylesheet" type="text/css" />
+```
+
+Use in HTML / CSS:
+
+```html
+<style>
+    .wayfinder {
+        font-family: "OSCURA";
         font-size: 50px;
     }
 </style>
