@@ -115,7 +115,7 @@ Use in HTML / CSS:
 
 ```html
 <style>
-    .wayfinder {
+    .oscura {
         font-family: "OSCURA";
         font-size: 50px;
     }
