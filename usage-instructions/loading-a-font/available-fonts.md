@@ -1,10 +1,14 @@
+---
+coverY: 0
+---
+
 # Available Fonts
 
 #### Font Downloads
 
 Download all fonts available on the Shaughnessy CDN here:
 
-{% file src=".gitbook/assets/cdn-fonts.zip" %}
+{% file src="../../cdn-fonts.zip" %}
 
 #### Usage Instructions
 
