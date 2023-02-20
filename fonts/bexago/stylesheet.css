@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'BEXAGO Outline';
+    src: url('BEXAGOOutline.eot');
+    src: url('BEXAGOOutline.eot?#iefix') format('embedded-opentype'),
+        url('BEXAGOOutline.woff2') format('woff2'),
+        url('BEXAGOOutline.woff') format('woff'),
+        url('BEXAGOOutline.ttf') format('truetype'),
+        url('BEXAGOOutline.svg#BEXAGOOutline') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'BEXAGO';
+    src: url('BEXAGO.eot');
+    src: url('BEXAGO.eot?#iefix') format('embedded-opentype'),
+        url('BEXAGO.woff2') format('woff2'),
+        url('BEXAGO.woff') format('woff'),
+        url('BEXAGO.ttf') format('truetype'),
+        url('BEXAGO.svg#BEXAGO') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'BEXAGO Slant';
+    src: url('BEXAGOSlant.eot');
+    src: url('BEXAGOSlant.eot?#iefix') format('embedded-opentype'),
+        url('BEXAGOSlant.woff2') format('woff2'),
+        url('BEXAGOSlant.woff') format('woff'),
+        url('BEXAGOSlant.ttf') format('truetype'),
+        url('BEXAGOSlant.svg#BEXAGOSlant') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
