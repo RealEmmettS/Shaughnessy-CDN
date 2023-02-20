@@ -122,4 +122,23 @@ Use in HTML / CSS:
 </style>
 ```
 {% endtab %}
+
+{% tab title="Bexago" %}
+Import with HTML / CSS:
+
+```html
+<link href="https://cdn.emmetts.dev/fonts/bexago/stylesheet.css" rel="stylesheet" type="text/css" />
+```
+
+Use in HTML / CSS:
+
+```html
+<style>
+    .oscura {
+        font-family: "Bexago";
+        font-size: 50px;
+    }
+</style>
+```
+{% endtab %}
 {% endtabs %}
