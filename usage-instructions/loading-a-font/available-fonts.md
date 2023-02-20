@@ -130,11 +130,13 @@ Import with HTML / CSS:
 <link href="https://cdn.emmetts.dev/fonts/bexago/stylesheet.css" rel="stylesheet" type="text/css" />
 ```
 
+
+
 Use in HTML / CSS:
 
 ```html
 <style>
-    .oscura {
+    .bexago {
         font-family: "Bexago";
         font-size: 50px;
     }
