@@ -1,8 +1,4 @@
----
-cover: >-
-  https://images.unsplash.com/photo-1618005198919-d3d4b5a92ead?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwxOTcwMjR8MHwxfHNlYXJjaHw0fHxncmFwaGljJTIwZGVzaWduJTIwYWJzdHJhY3R8ZW58MHx8fHwxNjc0NTAwNzE4&ixlib=rb-4.0.3&q=80
-coverY: -16
----
+
 
 # CDN Overview
 
