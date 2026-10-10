@@ -9,8 +9,6 @@ Use the CDN to load fonts, brand assets, motion components, and downloads across
 
 These searchable docs are published at both **cdn.shaughv.com** and **cdn.emmetts.dev**. Use **cdn.shaughv.com** for current asset URLs; the older domain preserves its existing files. Public access does not grant redistribution rights.
 
-<a href="https://cdn.shaughv.com/site/index.html">Open the visual website</a>
-·
 <a href="https://cdn.shaughv.com/site/fonts.html">Open the font guide</a>
 
 **[Quickstart](/quickstart)**
