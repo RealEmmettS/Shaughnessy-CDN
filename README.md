@@ -1,24 +1,11 @@
+# Retired CDN host
 
+The current CDN is hosted on Vercel at both [cdn.shaughv.com](https://cdn.shaughv.com/) and [cdn.emmetts.dev](https://cdn.emmetts.dev/). Both names serve the same current assets and Blume documentation.
 
-# CDN Overview
+This repository retains only a forwarding page for clients whose DNS cache still points to GitHub Pages. It forwards to the primary Vercel hostname, preserving the path, query, and fragment. It is not an asset origin or a documentation mirror.
 
-The [**Shaughnessy CDN**](https://cdn.emmetts.dev) is a private CDN for use only on [**Shaughnessy**](https://shaughnessy.irish) sponsored websites and web-apps. This CDN _does_ include third-party fonts, images, and files that were _neither created_ _nor_ _commissioned_ by the [**Shaughnessy Group**](https://shaughnessy.irish) or its associates.
+The owner requested deletion of the 369 obsolete files: seven legacy font collections and their specimens, old website assets, and two duplicate font ZIPs. They have been removed from the current branch; Git history retains recovery copies. The previous generated documentation snapshot was also removed as part of retiring the mirror.
 
-The [**Shaughnessy CDN**](https://cdn.emmetts.dev) is designed to make [**Shaughnessy**](https://shaughnessy.irish) web-based projects quicker and more responsive by loading a font through a CDN, rather than directly on the web-server.
+The canonical source is the private `RealEmmettS/shaughv-cdn` repository. Make and deploy changes there. Do not publish private source or licensed font binaries here, run the old Pages publisher, or restore the removed assets during ordinary maintenance.
 
-_**DO NOT USE THE SHAUGHNESSY CDN WITHOUT EXPLICIT PERMISSION; THIS IS NOT A PUBLIC-USE CDN.**_
-
-## Documentation publishing
-
-The homepage is the Blume documentation built from `RealEmmettS/shaughv-cdn`.
-GitHub Pages publishes this repository's `main` branch root at `cdn.emmetts.dev`.
-The same documentation runs on `cdn.shaughv.com`; current asset examples use
-that primary CDN. Existing files in this repository remain at their original URLs.
-
-Edit documentation in the canonical repository, validate it, run its
-`scripts/publish_pages.py` against this checkout, then commit and push.
-Keep `.nojekyll`, `CNAME`, and `.blume-published.json`. The last file records only
-generated documentation so later updates preserve legacy files.
-
-Every update must keep affected Blume pages, agent URLs and commands, the asset
-tree, and generated discovery files synchronized before pushing; see `AGENTS.md`.
+The `CNAME` and `.nojekyll` files remain solely for the forwarding bridge. No subscription or scheduled job was added.
