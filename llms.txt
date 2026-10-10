@@ -1,0 +1,38 @@
+# SHAUGHV CDN Docs
+
+> How to use fonts, brand assets, motion drop-ins, and packages from cdn.shaughv.com.
+
+## Docs
+
+- [SHAUGHV CDN](https://cdn.shaughv.com/): One address for fonts, brand assets, motion drop-ins, and packages across SHAUGHV projects.
+- [Quickstart](https://cdn.shaughv.com/quickstart): Link the SHAUGHV CDN from any web project in a few minutes.
+- [Brand assets](https://cdn.shaughv.com/brand): Official wordmarks, responsive favicons, and transparent figurines ready to place.
+- [Motion](https://cdn.shaughv.com/motion): Drop-in animated marks and loaders that inherit color and respect reduced motion.
+- [Downloads](https://cdn.shaughv.com/downloads): Direct archives for prompt research and installable prompt-engineering skills.
+- [Recipes](https://cdn.shaughv.com/recipes): Copy-paste setups for the pages SHAUGHV projects actually ship.
+- [Reference](https://cdn.shaughv.com/reference): Namespaces, cache tiers, CORS, and discovery files for cdn.shaughv.com.
+- [Website layout](https://cdn.shaughv.com/website): How the public CDN pages are built, how the catalog reflows, and how to preview every width.
+- [Hosting and updates](https://cdn.shaughv.com/hosting): Where the two CDN domains run, how the documentation stays current, and how to validate a change.
+
+## Fonts
+
+- [Fonts](https://cdn.shaughv.com/fonts): Makira and Paper Mono are the standard pair. IBM Plex Mono and Unbounded stay opt-in.
+- [Makira](https://cdn.shaughv.com/fonts/makira): The standard SHAUGHV sans — one face for titles, interfaces, body copy, and controls.
+- [Paper Mono](https://cdn.shaughv.com/fonts/paper-mono): The preferred SHAUGHV monospace, with eight static weights and a variable build.
+- [Gail Rock](https://cdn.shaughv.com/fonts/gail-rock): The previous SHAUGHV monospace, retained for compatibility — a full interface voice with a true fixed-pitch grid.
+- [Opt-in families](https://cdn.shaughv.com/fonts/opt-in): IBM Plex Mono and Unbounded stay off the standard bundle until a project asks for them.
+
+## Agent skills
+
+- [shaughv-cdn-docs](https://cdn.shaughv.com/.well-known/agent-skills/shaughv-cdn-docs/SKILL.md): Read the SHAUGHV CDN Docs instead of answering from memory. How to use fonts, brand assets, motion drop-ins, and packages from cdn.shaughv.com. Use when a task involves SHAUGHV CDN Docs: how it works, how to set it up or configure it, or its API.
+
+## Agent resources
+
+- [llms-full.txt](https://cdn.shaughv.com/llms-full.txt): The full Markdown of every page in one file.
+- [Page Markdown](https://cdn.shaughv.com/index.md): Append `.md` to any page URL to fetch that page as raw Markdown.
+- [JSON API](https://cdn.shaughv.com/api/docs/pages.json): Page index of the JSON docs API; each entry links the page's JSON and Markdown forms. Described by the OpenAPI document at https://cdn.shaughv.com/openapi.json.
+- [Agent skills](https://cdn.shaughv.com/.well-known/agent-skills/index.json): Agent Skills discovery index of the skills this site publishes.
+- [API catalog](https://cdn.shaughv.com/.well-known/api-catalog): RFC 9727 linkset of the APIs documented here.
+- [AI catalog](https://cdn.shaughv.com/.well-known/ai-catalog.json): ARD manifest of the agent-facing resources on this site (MCP server, skills, APIs).
+- [agent-readability.json](https://cdn.shaughv.com/agent-readability.json): Manifest of every agent-facing artifact on this site.
+- [Sitemap](https://cdn.shaughv.com/sitemap.xml): Every indexable page URL with its last-modified date.

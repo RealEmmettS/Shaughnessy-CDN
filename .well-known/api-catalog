@@ -1,0 +1,19 @@
+{
+  "linkset": [
+    {
+      "anchor": "https://cdn.shaughv.com/api/docs",
+      "service-desc": [
+        {
+          "href": "https://cdn.shaughv.com/openapi.json",
+          "type": "application/json"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://cdn.shaughv.com/",
+          "type": "text/html"
+        }
+      ]
+    }
+  ]
+}

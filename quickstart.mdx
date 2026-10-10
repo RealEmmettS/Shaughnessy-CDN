@@ -1,0 +1,91 @@
+---
+title: Quickstart
+description: Link the SHAUGHV CDN from any web project in a few minutes.
+sidebar:
+  icon: rocket
+  order: 2
+---
+
+Every consumer path is a normal HTTPS URL. You do not copy licensed font files or brand originals into each project.
+
+<Steps>
+  <Step title="Pick the origin">
+    Use `https://cdn.shaughv.com/` for current assets. Both CDN homepages show this documentation; older `cdn.emmetts.dev` asset links remain available.
+  </Step>
+  <Step title="Link what the page needs">
+    Fonts take a stylesheet. Marks and loaders take a custom-element tag plus a script. Images take an `src`.
+  </Step>
+  <Step title="Leave binaries on the CDN">
+    Prefer CDN links for shared project assets. Makira and brand assets have restricted redistribution; Paper Mono is available under its included OFL license.
+  </Step>
+</Steps>
+
+## Fastest useful paste
+
+<Tabs>
+  <Tab title="Fonts">
+    The standard pair in one line:
+
+    ```html
+    <link rel="stylesheet" href="https://cdn.shaughv.com/fonts/fonts.css" />
+    ```
+
+    Then in CSS:
+
+    ```css
+    :root {
+      --font-makira: "Makira", system-ui, sans-serif;
+      --font-paper: "Paper Mono", ui-monospace, monospace;
+    }
+    body { font-family: var(--font-makira); }
+    code, pre {
+      font-family: var(--font-paper);
+      font-feature-settings: "zero" 1;
+    }
+    ```
+  </Tab>
+  <Tab title="Favicon pair">
+    Light and dark icons that follow the visitor's color scheme:
+
+    ```html
+    <link rel="icon" href="https://cdn.shaughv.com/brand/shaughv/favicons/SHAUGHV-Favicon-Dark.svg" media="(prefers-color-scheme: light)">
+    <link rel="icon" href="https://cdn.shaughv.com/brand/shaughv/favicons/SHAUGHV-Favicon-Light.svg" media="(prefers-color-scheme: dark)">
+    ```
+  </Tab>
+  <Tab title="Animated mark">
+    ```html
+    <shaughv-mark style="display:block;width:96px;height:96px;color:currentColor" aria-label="SHAUGHV"></shaughv-mark>
+    <script src="https://cdn.shaughv.com/js/animated-brand-mark.js"></script>
+    ```
+  </Tab>
+</Tabs>
+
+## Local preview of this website
+
+This repository can show the public pages without uploading anything:
+
+```bash
+npm ci
+npm run docs:check
+bash scripts/deploy.sh --dry-run
+python3 scripts/serve-site.py
+```
+
+Then open:
+
+- `/` — documentation homepage
+- `/fonts` — font documentation
+- `/site/index.html` — original visual overview
+- `/site/fonts.html` — interactive font guide
+
+:::note
+The preview serves only the built public files and binds to localhost by default. On Windows, run shell scripts with Git Bash.
+:::
+
+## Discover files instead of memorizing them
+
+```bash
+curl -s https://cdn.shaughv.com/tree.json | python3 -m json.tool | head
+```
+
+Agents should read `/tree.json` and use each leaf's `url`, `embed`, or a family's `css_url`. Do not hardcode a private inventory of paths.
